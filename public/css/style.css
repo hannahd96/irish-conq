@@ -1,0 +1,167 @@
+ html, body {
+            font-weight: 100;
+            height: 100vh;
+            margin: 0;    
+            }
+
+			#slogan_home{
+					color:white;
+			}
+			
+			
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+			
+			.top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+				
+                font-size: 54px;				
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+			
+
+	#transparent {
+		position:relative;
+		background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+		background: rgba(204, 204, 204, 0.7);
+		border:none;
+	}
+	#panel-background {
+		position:relative;
+		background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+		background: rgba(204, 204, 204, 0.0);
+		border:none;
+	}
+
+}
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: white !important;
+	font-family: 'Catamaran', sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	font-family: 'Catamaran', sans-serif;
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+	font-family: 'Catamaran', sans-serif;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	font-family: 'Catamaran', sans-serif;
+	/*display: block;*/
+	margin: 30px auto 0;
+	padding: 20px 21px;
+	color: white !important;
+	font-size:55px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+
+a.animated-button.victoria-three {
+	border: 4px solid #1c1c1c;
+	font-family: 'Catamaran', sans-serif;
+}
+a.animated-button.victoria-three:after {
+	background: #97f218 !important;
+	font-family: 'Catamaran', sans-serif;
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+	height: 140%;
+	font-family: 'Catamaran', sans-serif;
+	opacity: 1;
+}
+#leaderboard_table_style th, td{
+	
+}
+
